@@ -254,6 +254,7 @@ func init() {
 		242: newAdSystem(242, "Videmob by Cydersoft", ""),
 		243: newAdSystem(243, "Ligatus", ""),
 		244: newAdSystem(244, "Vidstart", ""),
+		245: newAdSystem(245, "SoundCast", "soundcast.fm"),
 	}
 
 	adSystemDomains = map[string]*adSystemDomain{
@@ -620,7 +621,7 @@ func init() {
 		"videmob.com":                                   newAdSystemDomain("videmob.com", 242),
 		"ligadx.com":                                    newAdSystemDomain("ligadx.com", 243),
 		"vidstart.com":                                  newAdSystemDomain("vidstart.com", 244),
-		"mobileadtrading.com":                           newAdSystemDomain("mobileadtrading.com", 245),
+		"soundcast.fm":                                  newAdSystemDomain("soundcast.fm", 245),
 	}
 }
 
